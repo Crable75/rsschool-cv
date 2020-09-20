@@ -144,6 +144,11 @@ body {
   background-image: url(assets/img/icon-location.svg);
 }
 
+.contact-list__link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .skills {
   display: block;
   width: 100%;
