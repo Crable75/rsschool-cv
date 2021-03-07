@@ -21,11 +21,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px;
   background-color: #323B4C;
   color: #fff;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding: 60px 55px 30px;
 }
 
 .sidebar__title-wrp {
@@ -211,10 +209,21 @@ body {
   margin-bottom: 60px;
 }
 
-.main-txt {
-  font-size: 15px;
-  line-height: 24px;
+.code-example__list {
+  list-style: none;
+}
+
+.code-example__item a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.main-txt {
+
 }
 
 .footer {
